@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*ESTILO MOBILE*/
+@media screen and (max-width: 360px) {
+    .menu {
+        background-color: #f1ff86;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__lista {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .faleConosco {
+        margin-left: 215px;
+        background-color: white;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid;
+    }
+
+    li {
+        margin: 27px;
+    }
+
+    .grid>div {
+        display: grid;
+        text-align: center;
+    }
+
+    .grid>div:nth-child(n + 2) {
+        display: grid;
+        grid-template-columns: 1frx;
+        grid-gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid>div:nth-child(1) {
+        display: grid;
+        border: #f0feaf solid 1px;
+        border-radius: 100px;
+        background-color: #f0feaf;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .depoimentos>div {
+        border: #f0feaf solid;
+        border-radius: 10px;
+        margin: 20px;
+        margin-top: 30px;
+        background-color: #f0feaf;
+
+    }
+
+    h1 {
+        font-size: 40px;
+
+    }
+
+    img {
+        margin: 20px;
+    }
+
+    h3 {
+        margin: 20px;
+        font-size: 20px;
+
+    }
+
+    p {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .footer {
+        background-color: #f1ff86;
+        text-align: center;
+    }
+
+}
+
+/*ESTILO TABLET*/
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .menu {
+        background-color: #f1ff86;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .menu__lista {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-left: 250px;
+        width: 100px;
+        text-align: center;
+    }
+
+    /*css botão faleConosco.html*/
+    .faleConosco {
+        margin-left: 215px;
+        background-color: white;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 1px solid;
+    }
+
+    li {
+        margin: 27px;
+    }
+
+    .grid>div {
+        display: grid;
+        text-align: center;
+    
+    }
+
+    .grid>div:nth-child(n + 2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+        align-items: center;
+    }
+
+    .grid>div:nth-child(1) {
+        display: grid;
+        border: #f0feaf solid 1px;
+        border-radius: 100px;
+        background-color: #f0feaf;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .depoimentos>div {
+        border: #f0feaf solid;
+        border-radius: 10px;
+        margin: 20px;
+        margin-top: 30px;
+        background-color: #f0feaf;
+
+    }
+
+    h1 {
+        font-size: 40px;
+
+    }
+
+    img {
+        margin: 20px;
+    }
+
+    h3 {
+        margin: 20px;
+        font-size: 20px;
+
+    }
+
+    p {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .footer {
+        background-color: #f1ff86;
+        text-align: center;
+    }
+
+}
+    /*ESTILO DESKTOP*/
+    @media screen and (min-width: 768px) {
+
+        .menu {
+            background-color: #f1ff86;
+            font-size: 18px;
+            font-weight: bold;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .menu__lista {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            margin-left: 250px;
+            width: 100px;
+            text-align: center;
+        }
+
+        /*css botão faleConosco.html*/
+        .faleConosco {
+            margin-left: 215px;
+            background-color: white;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: 1px solid;
+        }
+
+        li {
+            margin: 27px;
+        }
+
+        .grid>div {
+            display: grid;
+            text-align: center;
+        }
+
+        .grid>div:nth-child(n + 2) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 50px;
+            align-items: center;
+        }
+
+        .grid>div:nth-child(1) {
+            display: grid;
+            border: #f0feaf solid 1px;
+            border-radius: 100px;
+            background-color: #f0feaf;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .depoimentos>div {
+            border: #f0feaf solid;
+            border-radius: 10px;
+            margin: 20px;
+            margin-top: 30px;
+            background-color: #f0feaf;
+
+        }
+
+        h1 {
+            font-size: 40px;
+
+        }
+
+        img {
+            margin: 20px;
+        }
+
+        h3 {
+            margin: 20px;
+            font-size: 20px;
+
+        }
+
+        p {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #f1ff86;
+            text-align: center;
+        }
+
+    }

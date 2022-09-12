@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*css menu navegável comum à todas as páginas*/
+.menu {
+    background-color: #f1ff86;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu .menu__lista {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    width: 100px;
+    text-align: center;
+}
+
+/*css pagina faleConosco.html*/
+.faleConosco {
+    margin-left: 215px;
+    background-color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+}
+
+li {
+    margin: 27px;
+}
+
+a {
+    /*usado para não deixar o hiperlink azul e sublinhado*/
+    text-decoration: none;
+    color: inherit;
+}
+
+.logotipoHome {
+    position: absolute;
+    bottom: 100px;
+    margin-left: 20px;
+
+}
+
+.contact {
+    display: flex;
+    background-color: #f0feaf;
+    width: 400px;
+    height: 450px;
+    margin-left: 320px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 80px;
+    padding-right: 200px;
+    
+}
+
+h2{
+    margin-left: 185px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+
+}
+
+.contact__form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.contact__form input,
+textarea {
+    outline: unset;
+    padding: 10px;
+    width: 500px;
+    font-size: 14px;
+}
+
+.contact__form textarea {
+    padding: 10px 170px 10px 10px;
+    height: 10vw;
+}
+
+.contact__form input,
+.contact__form textarea {
+    background-color: #f1ff86;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+
+form input:focus,
+form textarea:focus {
+    background-color: #f1ff86;
+}
+
+.contact_input{
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #f1ff86;
+    text-align: center;
+}
