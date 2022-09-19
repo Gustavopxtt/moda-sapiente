@@ -2,17 +2,13 @@
     background-color: #f1ff86;
 }
 
-.logo {
-    width: 100px;
-}
-
 li {
     display: flex;
     align-items: center;
     margin: 10px;
     margin-left: 30px;
     font-size: 18px;
-
+   
 }
 
 .form {
@@ -21,46 +17,24 @@ li {
     margin-left: 560px;
     text-decoration: none;
     color: inherit;
-
 }
-
-/*Formulário Fale Conosco*/
-
-.container{
-    background-color: #f0feaf;
-}
-
-form {
-    margin: 10px;
-    margin-top: 20px;
-    padding: 80px;
-
-    
-    
-}
-
-.form-control {
-    margin: 10px;
-    
-}   
-
-h3 {
-    text-align: center;
-}
-
-.btn {
-    
-    margin: 10px;
-    width: 100px;
-}
-
-
-
-
-
-
 
 .footer {
     background-color: #f1ff86;
     text-align: center;
 }
+
+.logotipo{
+    text-align: center;
+}
+
+.container{
+    background-color: #f0feaf;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
