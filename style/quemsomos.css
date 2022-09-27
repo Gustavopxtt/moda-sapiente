@@ -32,9 +32,19 @@ li {
     background-color: #f0feaf;
     padding: 20px;
     margin-bottom: 10px;
+    animation: container 0.3s;  
 }
+
+@keyframes container{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    
+} 
 
 h3{
     text-align: center;
 }
-

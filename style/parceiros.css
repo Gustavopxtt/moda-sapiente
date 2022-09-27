@@ -1,287 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
-
+.navbar {
+    background-color: #f1ff86;
 }
 
-a {
+.container{
+    text-align:center;
+    height: 10px;
+    margin-top:30px;
+    text-decoration: underline;
+    animation: container 1.5s;  
+}
+
+@keyframes container{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    
+} 
+.logo {
+    width: 100px;
+}
+
+    
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+   
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-left: 560px;
     text-decoration: none;
     color: inherit;
 }
 
-/*ESTILO MOBILE*/
-@media screen and (max-width: 360px) {
-    .menu {
-        background-color: #f1ff86;
-        font-size: 18px;
-        font-weight: bold;
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-    }
 
-    .menu__lista {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-
-    .faleConosco {
-        margin-left: 215px;
-        background-color: white;
-        padding: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border: 1px solid;
-    }
-
-    li {
-        margin: 27px;
-    }
-
-    .grid>div {
-        display: grid;
-        text-align: center;
-    }
-
-    .grid>div:nth-child(n + 2) {
-        display: grid;
-        grid-template-columns: 1frx;
-        grid-gap: 50px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .grid>div:nth-child(1) {
-        display: grid;
-        border: #f0feaf solid 1px;
-        border-radius: 100px;
-        background-color: #f0feaf;
-        margin-top: 30px;
-        padding: 20px;
-    }
-
-    .depoimentos>div {
-        border: #f0feaf solid;
-        border-radius: 10px;
-        margin: 20px;
-        margin-top: 30px;
-        background-color: #f0feaf;
-
-    }
-
-    h1 {
-        font-size: 40px;
-
-    }
-
-    img {
-        margin: 20px;
-    }
-
-    h3 {
-        margin: 20px;
-        font-size: 20px;
-
-    }
-
-    p {
-        margin: 10px;
-        text-align: center;
-    }
-
-    .footer {
-        background-color: #f1ff86;
-        text-align: center;
-    }
-
+.depoimentos{
+    display:flex;
+    justify-content: space-between;
+    margin:50px;
+    margin-top:70px;
+ 
 }
 
-/*ESTILO TABLET*/
-@media screen and (min-width: 360px) and (max-width: 768px) {
-    .menu {
-        background-color: #f1ff86;
-        font-size: 18px;
-        font-weight: bold;
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-
-    }
-
-    .menu__lista {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        margin-left: 250px;
-        width: 100px;
-        text-align: center;
-    }
-
-    /*css botão faleConosco.html*/
-    .faleConosco {
-        margin-left: 215px;
-        background-color: white;
-        padding: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border: 1px solid;
-    }
-
-    li {
-        margin: 27px;
-    }
-
-    .grid>div {
-        display: grid;
-        text-align: center;
+.img-fluid{
+    width:70%;
+    height:70%;
+    padding-top: 10%;
+    padding-left: 25%;
+    margin-bottom: 15px;
     
-    }
+    
+}
 
-    .grid>div:nth-child(n + 2) {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 50px;
-        align-items: center;
-    }
 
-    .grid>div:nth-child(1) {
-        display: grid;
-        border: #f0feaf solid 1px;
-        border-radius: 100px;
-        background-color: #f0feaf;
-        margin-top: 30px;
-        padding: 20px;
-    }
 
-    .depoimentos>div {
-        border: #f0feaf solid;
-        border-radius: 10px;
-        margin: 20px;
-        margin-top: 30px;
-        background-color: #f0feaf;
-
-    }
-
-    h1 {
-        font-size: 40px;
-
-    }
-
-    img {
-        margin: 20px;
-    }
-
-    h3 {
-        margin: 20px;
-        font-size: 20px;
-
-    }
-
-    p {
-        margin: 10px;
-        text-align: center;
-    }
-
-    .footer {
-        background-color: #f1ff86;
-        text-align: center;
-    }
+.depoimentos__parceiros{
+    width:300px;
+    height: 420px;
+    background-color: #f0feaf;
+    border-radius: 10px;
+    margin-bottom: 50px;
 
 }
-    /*ESTILO DESKTOP*/
-    @media screen and (min-width: 768px) {
+.depoimentos__parceiros:hover {
+    width: 310px;
+    height: 430px;
+    background-color: #f1ff86;
+}
 
-        .menu {
-            background-color: #f1ff86;
-            font-size: 18px;
-            font-weight: bold;
-            width: 100%;
-            height: 80px;
-            display: flex;
-            align-items: center;
+.depoimentos__cliente{
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
 
-        }
+}
 
-        .menu__lista {
-            list-style-type: none;
-            display: flex;
-            align-items: center;
-            margin-left: 250px;
-            width: 100px;
-            text-align: center;
-        }
+.depoimentos__texto{
+    padding:0 30px 0 30px;
+    text-align: justify;
+    margin-top: 15px;
+    
+}
 
-        /*css botão faleConosco.html*/
-        .faleConosco {
-            margin-left: 215px;
-            background-color: white;
-            padding: 5px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border: 1px solid;
-        }
-
-        li {
-            margin: 27px;
-        }
-
-        .grid>div {
-            display: grid;
-            text-align: center;
-        }
-
-        .grid>div:nth-child(n + 2) {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-gap: 50px;
-            align-items: center;
-        }
-
-        .grid>div:nth-child(1) {
-            display: grid;
-            border: #f0feaf solid 1px;
-            border-radius: 100px;
-            background-color: #f0feaf;
-            margin-top: 30px;
-            padding: 20px;
-        }
-
-        .depoimentos>div {
-            border: #f0feaf solid;
-            border-radius: 10px;
-            margin: 20px;
-            margin-top: 30px;
-            background-color: #f0feaf;
-
-        }
-
-        h1 {
-            font-size: 40px;
-
-        }
-
-        img {
-            margin: 20px;
-        }
-
-        h3 {
-            margin: 20px;
-            font-size: 20px;
-
-        }
-
-        p {
-            margin: 10px;
-            text-align: center;
-        }
-
-        .footer {
-            background-color: #f1ff86;
-            text-align: center;
-        }
-
-    }
+.footer {
+    background-color: #f1ff86;
+    text-align: center;
+}
